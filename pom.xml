@@ -23,7 +23,7 @@
                 <configuration>
                     <parallel>methods</parallel>
                     <useUnlimitedThreads>true</useUnlimitedThreads>
-                    <forkCount>4</forkCount>
+                    <forkCount>5</forkCount>
                     <reuseForks>true</reuseForks>
                     <properties>
                         <property>
