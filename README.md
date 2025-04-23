@@ -4,12 +4,16 @@
 This project includes automated API tests to verify:
 
 1. **HTTP Status Code Validation**
-   - **A GET request should return HTTP status 200 OK.**
+   - A GET request should return HTTP status 200 OK.
 2. **HTTP Header Validation**
-   - **The Content-Type header must exist.**
-   - **The header value must be application/json; charset=utf-8.**
+   - The Content-Type header must exist.
+   - The header value must be application/json; charset=utf-8.
 3. **Response Body Validation**
-   - **The response body should contain an array of 10 users.**
+   - The response body should contain an array of 10 users.
+4. **DELETE Operation Validation**
+   - A DELETE request to the specified post should return HTTP 200 OK.
+5. **Update post Validation**
+   - A PUT request to the specified post should return HTTP 200 OK.
 
 ## Technologies Used
 - Java 17+
